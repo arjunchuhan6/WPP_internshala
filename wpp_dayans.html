@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My name is Arjun Rajput</h1>
+    <h2>Print of screen</h2>
+    <p>Click on the button to print the screen</p>
+    <button class="button">Click</button>
+    <script>
+        const button = document.querySelector(".button");
+        button.addEventListener("click", print_current_page);
+        
+        function print_current_page() {
+            // Call the window.print() this method to initiate the print the current page
+            window.print();
+        };</script>
+</body>
+</html>
